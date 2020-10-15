@@ -60,3 +60,12 @@ export const silver = {
   dividerColor: "rgba(94, 104, 107)",
   selectedBackgroundCollapsedMode: "dark",
 };
+
+export const orange = {
+  bgColor1: "#8B4000",
+  bgColor2: "#FF7F00",
+  fontColor: "rgba(150, 93, 105)",
+  fontColorSelected: "#964000",
+  dividerColor: "rgba(232, 213, 216)",
+  selectedBackgroundCollapsedMode: "dark",
+};

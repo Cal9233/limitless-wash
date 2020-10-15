@@ -5,7 +5,7 @@ import * as s from "./Sidebar.styles";
 
 const Sidebar = (props) => {
   const {
-    backgroundImage = "",
+    backgroundImage = "images/washer.jpg",
     sidebarHeader = {
       fullName: "",
       shortName: "",
