@@ -9,7 +9,7 @@ export const SidebarContainer = styled.div`
       ${(p) => p.colorPalette.bgColor1} 0%,
       ${(p) => p.colorPalette.bgColor2} 74%
     ),
-    url(${(p) => p.backgroundImage});
+    url("images/washer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

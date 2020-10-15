@@ -7,14 +7,13 @@ import Sidebar from "./components/Sideview/Sidebar";
 import MainView from "./components/Mainview/MainView";
 
 const App = () => {
-  const backgroundImage = "images/mountain.jpg";
+  const backgroundImage = "images/washer.jpg";
   const sidebarHeader = {
-    fullName: "Que Bola",
-    shortName: "YO",
+    fullName: "Limitless SoftWash",
+    shortName: "LS",
   };
   const menuItems = [
     { name: "Home", to: "/", icon: "icons/home.svg", subMenuItems: [] },
-    { name: "About", to: "/about", icon: "icons/about.svg", subMenuItems: [] },
     {
       name: "Services",
       to: "/services",
@@ -24,7 +23,7 @@ const App = () => {
     {
       name: "Contact",
       to: "/contact",
-      icon: "icons/contact.svg",
+      icon: "icons/contacts.svg",
       subMenuItems: [],
     },
   ];
@@ -41,7 +40,7 @@ const App = () => {
         sidebarHeader={sidebarHeader}
         menuItems={menuItems}
         fonts={fonts}
-        colorPalette={Palette.brown}
+        colorPalette={Palette.orange}
       />
       <MainView />
     </s.App>
