@@ -7,7 +7,7 @@ import Sidebar from "./components/Sideview/Sidebar";
 import MainView from "./components/Mainview/MainView";
 
 const App = () => {
-  const backgroundImage = "images/washer.jpg";
+  const backgroundImage = "images/img.jpg";
   const sidebarHeader = {
     fullName: "Limitless SoftWash",
     shortName: "LS",
@@ -25,6 +25,11 @@ const App = () => {
       to: "/contact",
       icon: "icons/contacts.svg",
       subMenuItems: [],
+    },
+    {
+      name: "Social Media",
+      to: "https://www.instagram.com/limitlesssoftwash/",
+      icon: "icons/IG.png",
     },
   ];
 
