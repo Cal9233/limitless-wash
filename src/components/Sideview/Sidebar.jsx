@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import * as s from "./Sidebar.styles";
+import Footer from "../Mainview/Footer/Footer";
 
 const Sidebar = (props) => {
   const {
@@ -178,6 +179,7 @@ const Sidebar = (props) => {
       <s.TogglerContainer onClick={() => setSidebarState(!isSidebarOpen)}>
         <s.Toggler />
       </s.TogglerContainer>
+      <Footer />
     </s.SidebarContainer>
   );
 };
